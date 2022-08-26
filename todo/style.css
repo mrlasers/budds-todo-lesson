@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+html *,
+html *::before,
+html *::after {
+  box-sizing: inherit;
+}
+
+div#app {
+  background-color: lightcoral;
+
+  width: 50%;
+  margin-inline: auto;
+}
+
+form {
+  display: flex;
+}
+
+form input {
+  flex: 0in;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+li {
+  display: flex;
+  gap: 0.5em;
+}
+
+li.complete {
+  text-decoration: line-through;
+  color: grey;
+}
