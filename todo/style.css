@@ -20,7 +20,7 @@ form {
 }
 
 form input {
-  flex: 0in;
+  flex: 1;
 }
 
 ul {
@@ -36,5 +36,5 @@ li {
 
 li.complete {
   text-decoration: line-through;
-  color: grey;
+  color: darkslategrey;
 }
