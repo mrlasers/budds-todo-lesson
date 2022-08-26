@@ -12,6 +12,7 @@ div#app {
   background-color: lightcoral;
 
   width: 50%;
+  min-height: 200px;
   margin-inline: auto;
 }
 
